@@ -1,0 +1,25 @@
+{
+  "name": "is-heroku-cli",
+  "version": "1.0.0-1",
+  "description": "Check if your code is running on Heroku from the command line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "bin": "index.js",
+  "keywords": [
+    "env",
+    "environment",
+    "is",
+    "detect",
+    "check",
+    "heroku",
+    "cli"
+  ],
+  "author": "Sean Genabe <seangenabe@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "is-heroku": "^1.0.1"
+  }
+}
