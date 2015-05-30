@@ -18,6 +18,7 @@
     "cli"
   ],
   "author": "Sean Genabe <seangenabe@outlook.com>",
+  "repository": "seangenabe/is-heroku-cli",
   "license": "MIT",
   "dependencies": {
     "is-heroku": "^1.0.1"
