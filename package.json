@@ -1,13 +1,15 @@
 {
   "name": "is-heroku-cli",
-  "version": "1.1.0",
+  "version": "1.2.0-14",
   "description": "Check if your code is running on Heroku from the command line",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node ./is-heroku-cli"
   },
-  "bin": "./index.js",
+  "bin": {
+    "is-heroku-cli": "./is-heroku-cli"
+  },
+  "main": "./node_modules/is-heroku-cli/index",
   "keywords": [
     "env",
     "environment",
