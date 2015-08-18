@@ -3,7 +3,7 @@
   "version": "1.2.0",
   "description": "Check if your code is running on Heroku from the command line",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node ./is-heroku-cli",
     "start": "node ./is-heroku-cli"
   },
   "bin": {
