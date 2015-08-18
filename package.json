@@ -1,6 +1,6 @@
 {
   "name": "is-heroku-cli",
-  "version": "1.2.1-0",
+  "version": "1.2.1",
   "description": "Check if your code is running on Heroku from the command line",
   "scripts": {
     "test": "node ./is-heroku-cli",
