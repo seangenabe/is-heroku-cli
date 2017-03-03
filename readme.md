@@ -1,5 +1,7 @@
 # is-heroku-cli
 
+**DEPRECATED.** Please use [`heroku-prebuild` and `heroku-postbuild`](https://devcenter.heroku.com/articles/nodejs-support#heroku-specific-build-steps) instead.
+
 Check if your code is running on Heroku from the command line
 
 [![npm](https://img.shields.io/npm/v/is-heroku-cli.svg?style=flat-square)](https://www.npmjs.com/package/is-heroku-cli)
